@@ -137,6 +137,12 @@ const config = {
             sidebarid: 'loginButton',
           },
           {
+            to: 'https://qr.digiquip.com/scan',
+            label: 'Scan QR',
+            position: 'right',
+            sidebarid: 'scanqr',
+          },
+          {
             type: 'localeDropdown',
             position: 'right',
             sidebarid: 'tutorialSidebar',
